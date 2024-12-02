@@ -1,0 +1,2 @@
+C:\Intel\OOPlab_3\ConsoleApp1\WpfLibrary1\WpfLibrary1\obj\Debug\net8.0-windows\Dictionary1.g.cs
+C:\Intel\OOPlab_3\ConsoleApp1\WpfLibrary1\WpfLibrary1\obj\Debug\net8.0-windows\WpfLibrary1_MarkupCompile.cache

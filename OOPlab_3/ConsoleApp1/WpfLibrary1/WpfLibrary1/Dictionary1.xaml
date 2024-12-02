@@ -1,0 +1,19 @@
+﻿<Window x:Class="ArrayProcessor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Обробка Масиву" Height="350" Width="500">
+    <Grid>
+        <Label Content="Кількість елементів масиву (n):" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxN" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Згенерувати та обробити масив" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="310" Click="ProcessArrayButton_Click"/>
+
+        <TextBlock x:Name="InitialArrayTextBlock" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="450" TextWrapping="Wrap"/>
+        <TextBlock x:Name="SumNegativeEvenIndexTextBlock" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="450" TextWrapping="Wrap"/>
+        <TextBlock x:Name="ProcessedArrayTextBlock" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="450" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+</ResourceDictionary>
